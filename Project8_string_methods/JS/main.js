@@ -4,7 +4,7 @@ function full_sentence() { //Function to concatenate strings.
     var part_3 = "into a complete";
     var part_4 = "Sentence.";
     var whole_sentence = part_1.concat(part_2, part_3, part_4);
-    document.getElementById("Concatenate").innerHTML = whole_sentece;
+    document.getElementById("Concatenate").innerHTML = whole_sentence;
 }
 
 function slice_Method() { //Method formats a number to a specified length.
