@@ -1,3 +1,13 @@
+function Call_Loop() { //Loop function
+    var Digit = "";
+    var x = 10;
+    while (x < 25) {
+        Digit += "<br>" + x;
+        x++;
+    }
+    document.getElementById("Loop").innerHTML=Digit;
+}
+
 var Instruments= ["Guitar", "Drums", "Piano", "Bass", "Violin", "Trumpet", "Flute"];
 var Content = "";
 var Y;
@@ -36,7 +46,6 @@ document.write("<br" + X);
 {
 let x = 2; // X is equal 2.
 }
-document.getElementById("Break").innerHTML = text;
 
 function myFunction() {  //Return Function.
     return Math.PI;

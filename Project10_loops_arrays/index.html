@@ -6,6 +6,9 @@
     </head>
 
     <body>
+        <p id="Loop"></p>
+        <button onclick="Call_Loop()">Click here to execute the loop.</button>
+
         <p id="List_of_Instruments"></p>
         <button onclick="for_loop()">Click here to execute the Loop</button>
 
@@ -15,9 +18,19 @@
         <p id="Constant"></p>
         <button onclick="constant_function()">Click here!</button>
 
+        <p>"length"</p>
+        <p id="length"></p>
+
         <p id="Break"></p>
+        <script>
+            let text = "text go right here";
+            let length = text.length;
+        
+            document.getElementById("length").innerHTML = text;
+        </script>
 
         <p id="return"></p>
+        <button onclick="myFunction()">Click!</button>
 
         <p id="Car_Object"></p>
     </body>
